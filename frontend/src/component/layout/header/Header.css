@@ -1,0 +1,183 @@
+.speedDial {
+    position: fixed;
+    right: 3vmax;
+    top: 5vmax;
+}
+
+.speedDialIcon {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+
+body {
+    margin: 0vmax;
+    font-family: Arial;
+
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    justify-content: center;
+    padding-right: 3vmax;
+
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    ;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+.topnav .icon {
+    display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+    .speedDial {
+        position: fixed;
+        right: 1vmax;
+        top: 7vmax;
+    }
+
+    .speedDialIcon {
+        width: 56px;
+        height: 56px;
+        border-radius: 100%;
+    }
+
+    .topnav {
+        overflow: auto;
+        background-color: #333;
+        display: block;
+
+    }
+
+    .topnav>a {
+        float: right;
+        display: flex;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 15px;
+        text-decoration: none;
+        font-size: 13px;
+    }
+
+
+
+    .topnav .icon {
+        display: none;
+    }
+
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 13px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+
+}
